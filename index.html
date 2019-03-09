@@ -4,43 +4,78 @@
 
     <head>
 
+        <meta charset="UTF-8"> 
+
         <link href = "reset.css" type = "text/css" rel = "stylesheet">
         <link href = "style.css" type = "text/css" rel = "stylesheet">
 
     </head>
 
     <body>
-
+        
         <!-- Top navbar -->
         <ul id = "navbar">
 
             <span id = "left-nav">
-                <li>About</li>
-                <li>Store</li>
+                <li class = "hover-text">About</li>
+                <li class = "hover-text">Store</li>
             </span>
 
             <span id = "right-nav">
-                <li>Gmail</li>
-                <li>Images</li>
+                <li class = "hover-text">Gmail</li>
+                <li class = "hover-text">Images</li>
                 <li><img id = "apps-icon" src = "apps_icon.png" alt = "Apps"></li>
                 <li><button type="button">Sign in</button></li>
             </span>
 
         </ul>
-        
-        <!-- The search area -->
-        <div id = "search-area">
-            <div><img id = "logo" src = "logo.png" alt = "Google"></div>
-            <form>
+            
+        <div id = "master">
+            <!-- The search area -->
+            <div id = "search-area">
 
-                <input class = "search-bar" type = "text"></div>
+                <div><img id = "logo" src = "logo.png" alt = "Google"></div>
                 
-                <div class = "search-buttons">
-                    <input class = "search-button" type = "submit" value = "Google Search">
-                    <input class = "search-button" type = "submit" value = "I'm Feeling Lucky">
-                </div>
+                <form>
 
-            </form>
+                    <input class = "search-bar" type = "text">
+                    
+                    <div class = "search-buttons">
+                        <input class = "search-button" type = "submit" value = "Google Search">
+                        <input class = "search-button" type = "submit" value = "I'm Feeling Lucky">
+                    </div>
+
+                </form>
+
+                <p> Google offered in: <a class = "hover-text">Français</a></p>
+
+            </div>
+
+            <!-- The footer -->
+            <div id = "footer">
+                
+                <ul class = "footbar">
+                    <span class = "left-foot">
+                        <li style = "font-size: 15px;">Canada</li>
+                    </span>
+                </ul>
+
+                <ul class = "footbar">
+
+                    <span class = "left-foot">
+                        <li class = "hover-text">Advertising</li>
+                        <li class = "hover-text">Business</li>
+                    </span>
+        
+                    <span class = "right-foot">
+                        <li class = "hover-text">Privacy</li>
+                        <li class = "hover-text">Terms</li>
+                        <li class = "hover-text">Settings</li>
+                    </span>
+        
+                </ul>
+
+            </div>
         </div>
 
     </body>

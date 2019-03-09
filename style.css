@@ -17,6 +17,7 @@ form {
     max-height: 92px;
 
     padding-top: 109px;
+    padding-bottom: 18px;
 
 }
 
@@ -35,7 +36,11 @@ form {
 }
 
 .search-buttons {
+
     text-align: center;
+
+    padding-top: 18px;
+
 }
 
 .search-button {

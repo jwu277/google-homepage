@@ -78,11 +78,18 @@ a {
 
 }
 
+#apps-icon:hover {
+
+    opacity: 0.85;
+
+}
+
 button {
 
     color: white;
     background-color:#4683ea;
     border: 1px solid #4285f4;
+    border-radius: 2px;
 
     font-weight: bold;
     font-size: 13px;
@@ -94,6 +101,11 @@ button {
 
     vertical-align: middle;
 
+}
+
+button:active {
+    background-color:#3673da;
+    border: 1px solid #3255e4;
 }
 
 form {
@@ -142,6 +154,12 @@ form {
 
 }
 
+.search-bar:hover, .search-bar:focus {
+
+    box-shadow: 0px 0px 8px #e4e4e4;
+
+}
+
 .search-buttons {
     padding-top: 16px;
 }
@@ -153,8 +171,8 @@ form {
 
     font-size: 14px;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     padding-left: 16px;
     padding-right: 16px;
 
@@ -163,8 +181,22 @@ form {
     margin-left: 5px;
     margin-right: 5px;
 
-    border: none;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
 
+}
+
+.search-button:hover {
+
+    background-color: #f4f4f4;
+    color: #000000;
+
+    border: 1px solid #aaaaaa;
+
+}
+
+.search-button:active {
+    border: 1px solid #4285f4;
 }
 
 #footer {

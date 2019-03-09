@@ -3,6 +3,78 @@
     font-size: 12px;
 }
 
+#navbar {
+
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+
+}
+
+#left-nav {
+
+    position: absolute;
+    left: 18px;
+
+    vertical-align: top;
+
+    margin-top: 7px;
+
+}
+
+#right-nav {
+
+    position: absolute;
+    right: 24px;
+
+    vertical-align: top;
+
+}
+
+#navbar li {
+
+    display: inline;
+
+    margin-left: 7px;
+    margin-right: 7px;
+
+    vertical-align: middle;
+
+}
+
+#apps-icon {
+    
+    width: 17px;
+    height: 17px;
+
+    padding-left: 4px;
+    padding-right: 4px;
+
+    vertical-align: middle;
+
+}
+
+button {
+
+    color: white;
+    background-color: #4285f4;
+
+    border: none;
+
+    font-weight: bold;
+    font-size: 13px;
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    vertical-align: middle;
+
+}
+
 form {
     text-align: center;
 }
@@ -16,8 +88,8 @@ form {
     max-width: 272px;
     max-height: 92px;
 
-    padding-top: 109px;
-    padding-bottom: 18px;
+    margin-top: 180px;
+    margin-bottom: 18px;
 
 }
 

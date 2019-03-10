@@ -113,6 +113,14 @@ button:active {
     border: 1px solid #3255e4;
 }
 
+button:focus {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
 form {
     text-align: center;
 }
@@ -194,9 +202,10 @@ form {
 .search-button:hover {
 
     background-color: #f4f4f4;
-    color: #000000;
+    color: #080808;
 
     border: 1px solid #aaaaaa;
+    box-shadow: 0px 0px 1px #888888;
 
     cursor: pointer;
 
@@ -204,6 +213,14 @@ form {
 
 .search-button:active {
     border: 1px solid #4285f4;
+}
+
+.search-button:focus {
+    outline: none;
+}
+
+.search-button::-moz-focus-inner {
+    border: 0;
 }
 
 #footer {

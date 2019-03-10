@@ -81,6 +81,7 @@ a {
 #apps-icon:hover {
 
     opacity: 0.85;
+    cursor: pointer;
 
 }
 
@@ -101,6 +102,10 @@ button {
 
     vertical-align: middle;
 
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 button:active {
@@ -193,6 +198,8 @@ form {
 
     border: 1px solid #aaaaaa;
 
+    cursor: pointer;
+
 }
 
 .search-button:active {
@@ -259,4 +266,5 @@ form {
 
 .hover-text:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
